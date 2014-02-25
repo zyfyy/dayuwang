@@ -1,0 +1,34 @@
+body{
+	background-color: #ccc;
+}
+header {
+	background-image: url(img/header.jpg);
+	background-size: cover;
+	height: 218px;
+}
+header h1{
+	text-indent: -9999px;
+}
+nav {
+	background-image: url(img/nav.jpg);
+	background-repeat: repeat-x;
+	height: 422px;
+	overflow: hidden;
+}
+nav ul{
+	padding-top: 6.5em;
+}
+nav ul li{
+	text-align: center;
+}
+nav ul li a{
+	display: block;
+	margin: 1.4em auto;
+	line-height: 2.125em;
+	height: 2.125em;
+	width: 72%;
+	background-color: #0d8dd6;
+	border-radius: 2px;
+	color: #fff;
+	text-decoration: none;
+}
